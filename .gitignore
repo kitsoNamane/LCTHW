@@ -53,5 +53,9 @@ dkms.conf
 
 # Exclude executable files
 */ex*
+main
 !*/*.c
 !*/*.h
+
+#vscode
+.vscode
