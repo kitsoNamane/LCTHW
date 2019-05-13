@@ -9,6 +9,7 @@ all:
 
 clean:
 	rm -f *.o $(TARGET)
+	$(CC) $(CFLAGS) *.c -o $(TARGET)
 
 git:
 	git add Makefile *.c
